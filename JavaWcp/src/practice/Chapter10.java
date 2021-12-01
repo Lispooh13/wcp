@@ -10,18 +10,12 @@ public class Chapter10 {
             Chapter10.validIndex(array, 2);
             Chapter10.validIndex(array, 3);
 
-            // Exceptionが発生しない場合は出力される
             System.out.println("validIndexの呼び出し終了");
         } catch (IllegalArgumentException e) {
             System.out.println("IllegalArgumentExceptionが発生しました");
-            // スタックトレースを出力
             e.printStackTrace();
         }
 
-        // try-catch文を記述
-        // ・throwSQLExceptionメソッドを呼び出し
-        // ・SQLExceptionをキャッチして、メッセージとスタックトレースを出力
-        // ・"throwSQLExceptionの呼び出し終了"のメッセージを出力
         try {
             Chapter10.throwSQLException();
         } catch (SQLException e) {
@@ -29,7 +23,6 @@ public class Chapter10 {
             // printStackTraceでスタックトレースを出力
             e.printStackTrace();
         } finally {
-            // 例外発生しても出力するため、finallyブロックに記述
             System.out.println("throwSQLExceptionの呼び出し終了");
         }
 
