@@ -5,6 +5,6 @@ public class practice0701 {
 		for(int i = 1; i<=10; i++) {
 			Sum += i;
 		}
-		System.out.println("1〜10の合計は"+Sum+ "です");
+		System.out.println("1〜10の合計は"+Sum+ "です。");
 	}
 }
