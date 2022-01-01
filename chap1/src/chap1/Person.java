@@ -11,4 +11,8 @@ public class Person {
 	  public void walk() {
 	    System.out.println(name + "は歩きます");
 	  }
+	  
+	  public void run() {
+		 System.out.println(name + "は走ります");
+	  }
 }
