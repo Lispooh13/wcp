@@ -8,6 +8,6 @@ public class Ex1 {
 		
 		System.out.println("aは"+ a );
 		System.out.println("bは"+ b );
-		System.out.println("cは"+ c );
+		System.out.println("aとbを足すと"+ c );
 	}
 }
